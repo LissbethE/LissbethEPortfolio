@@ -1,0 +1,102 @@
+//@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Salsa&display=swap");
+
+body {
+  font-family: $font-sans-serif;
+  font-size: $fontSize-default;
+  font-weight: 500;
+  line-height: 1.6;
+  font-style: normal;
+  color: #d1cebd; // #dededee6 #e4e8eb
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.color-dark {
+  color: $color-dark;
+}
+
+.heading-1 {
+  @extend .color-dark;
+
+  font-size: Max(4vw, 2rem);
+  font-family: $font-salsa;
+
+  &--header {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.2rem;
+    //text-transform: uppercase;
+
+    & span:nth-child(1) {
+      color: $color-secondary;
+      font-size: 3rem;
+
+      @include respond(tab-portrait) {
+        font-size: 2.5rem;
+      }
+
+      @include respond(breakp-500) {
+        font-size: 2rem;
+      }
+    }
+
+    & span:nth-child(2) {
+      font-size: 6vw; // 8  Max(6vw, 2rem)
+      margin-top: -2vw; // 3
+
+      & > span {
+        color: $color-secondary;
+        font-size: 3rem;
+
+        @include respond(breakp-500) {
+          font-size: 2rem;
+        }
+      }
+
+      @include respond(tab-portrait) {
+        // font-size: Max(9vw, 3rem);
+        font-size: 7.5vw;
+      }
+    }
+
+    & span:nth-child(3) {
+      font-size: 6vw;
+      margin-top: -3vw; // 5
+
+      @include respond(tab-portrait) {
+        //  font-size: 9vw;
+        font-size: 7.5vw;
+        margin-top: -4vw;
+      }
+    }
+  }
+}
+
+.heading-2 {
+  @extend .color-dark;
+
+  font-size: Max(3vw, 3.5rem);
+  font-family: $font-salsa;
+}
+
+.heading-3 {
+  @extend .color-dark;
+  font-size: 2rem;
+}
+
+.paragraph {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  @extend .color-dark;
+  letter-spacing: 0.1rem;
+}

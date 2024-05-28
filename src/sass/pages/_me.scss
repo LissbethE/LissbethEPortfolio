@@ -1,0 +1,58 @@
+.me {
+  padding: 3rem;
+  //padding-bottom: 4rem;
+
+  width: 75%;
+  height: 50rem; // 50
+
+  ///////////////////////
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $color-primary;
+    border-radius: 20px;
+  }
+
+  ///////////////////////
+
+  @include respond(tab-portrait) {
+    width: 90%;
+  }
+
+  ///////////////////////
+
+  &__item {
+    margin-left: 2rem;
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  &__ball {
+    margin-right: 2rem;
+    margin-top: 0.85rem;
+
+    background-image: linear-gradient(
+      to right top,
+      #377ed3,
+      #009fe9,
+      #00bce8,
+      #00d5d2,
+      #00ebaf
+    );
+
+    width: 1.6rem;
+    height: 1.6rem;
+    display: block;
+    border-radius: 50%;
+  }
+}
