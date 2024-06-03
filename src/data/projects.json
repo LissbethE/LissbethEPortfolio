@@ -1,0 +1,82 @@
+[
+  {
+    "video": "VioletShop.mp4",
+    "name": "💜 Violet's Shop",
+    "description": "Violet's Shop es un sitio web de comercio electrónico especializado en moda, ofreciendo una amplia gama de prendas de vestir y accesorios. Diseñado para brindar una experiencia de compra fluida y atractiva, este portal integra un sofisticado sistema administrativo. Este panel permite a los responsables de la tienda gestionar eficientemente su inventario, con la capacidad de subir, editar y eliminar productos con facilidad. \n Con una interfaz intuitiva y herramientas robustas, Violet's Shop garantiza una gestión eficaz y una actualización constante de su catálogo, asegurando así una experiencia de usuario óptima tanto para los clientes como para los administradores del sitio.",
+    "stack": "Sass, React, Node, Express, MongoDB, Mongoose",
+    "github": "https://github.com/LissbethE/Violet-Shop",
+    "preview": "https://violet-shop.onrender.com"
+  },
+
+  {
+    "video": "FoodiesBlog.mp4",
+    "name": "🥣 Foodies Blog",
+    "description": "Foodies Blog es una aplicación diseñada para entusiastas culinarios que desean explorar y compartir sus creaciones gastronómicas. Con una interfaz elegante y funcionalidades avanzadas,  esta plataforma permite a los usuarios tanto compartir sus recetas como guardarlas de forma privada para un uso personalizado. \n Entre sus características destacadas se incluyen un sólido sistema de autenticación de usuarios, que garantiza la seguridad y la privacidad de la información, así como una configuración de perfil personalizable para una experiencia adaptada a las preferencias individuales. Además, Foodies Blog ofrece un eficiente sistema de almacenamiento de recetas, permitiendo a los usuarios acceder fácilmente a sus creaciones culinarias en cualquier momento y lugar.",
+    "stack": "Pug, Sass, JavaScript, Node, Express, MongoDB, Mongoose",
+    "github": "https://github.com/LissbethE/Foodies-Blog-App",
+    "preview": "https://foodies-blog-app.onrender.com"
+  },
+
+  {
+    "video": "PokemonApp.mp4",
+    "name": "⚡Pokémon App",
+    "description": "La Pokémon App es una aplicación que ofrece una experiencia completa para los amantes de Pokémon. Diseñada con precisión y atención al detalle, esta aplicación proporciona información detallada sobre cada Pokémon disponible. Con una interfaz intuitiva y fácil de usar, los usuarios pueden explorar una extensa base de datos de Pokémon, accediendo a datos relevantes como estadísticas, movimientos y habilidades. \n  Una de las características destacadas de la Pokémon App es su capacidad para permitir a los usuarios seleccionar y guardar sus Pokémon favoritos. Esta función personalizada brinda a los usuarios la posibilidad de crear una colección personalizada, que se guarda de forma segura utilizando la tecnología de almacenamiento local en el navegador. Con la Pokémon App, la exploración del mundo Pokémon nunca ha sido tan informativa y entretenida.",
+    "stack": "Sass, React",
+    "github": "https://github.com/LissbethE/PokemonApp",
+    "preview": "https://react-pokemonapp.netlify.app/"
+  },
+
+  {
+    "video": "Freshness&Flavor.mp4",
+    "name": "🥗 Healthy Food",
+    "description": "Se trata de un sitio web estático diseñado para un restaurante de comida saludable.",
+    "stack": "Html, Sass, JavaScript",
+    "github": "https://github.com/LissbethE/HealthyFood-Website",
+    "preview": "https://lissbethe.github.io/HealthyFood-Website/"
+  },
+
+  {
+    "img": "MemoryGame.jpeg",
+    "name": "🧠 Memory Game",
+    "description": "Memory Game es una aplicación de entretenimiento que desafía y pone a prueba la memoria del jugador mediante un juego de cartas con emojis. Diseñado para brindar una experiencia lúdica y estimulante, este juego ofrece una divertida forma de ejercitar y mejorar la memoria. Con una amplia selección de emojis, cada partida de Memory Game presenta una combinación única de cartas que el jugador debe recordar y emparejar correctamente.\n Esta aplicación no solo ofrece entretenimiento, sino que también ofrece beneficios cognitivos al fomentar el desarrollo y el mantenimiento de habilidades de memoria agudas. Memory Game se distingue por su diseño intuitivo y su interfaz fácil de usar, lo que lo convierte en una opción ideal para jugadores de todas las edades. Ya sea como una actividad de ocio casual o como un ejercicio de entrenamiento cerebral, este juego promete horas de diversión y desafíos memorables.",
+    "stack": "Html, Css, JavaScript",
+    "github": "https://github.com/LissbethE/Memory-Game",
+    "preview": "https://lissbethe.github.io/Memory-Game/"
+  },
+
+  {
+    "video": "Natours.mp4",
+    "name": "🏕️ Natours",
+    "description": "Natours es una aplicación que proporciona una amplia gama de tours para que los usuarios puedan seleccionar y adquirir. Además, ofrece una configuración de usuario que permite personalizar aspectos como la foto de perfil, el nombre y la contraseña del usuario.",
+    "stack": "Pug, Css, JavaScript, Node, Express, MongoDB, Mongoose",
+    "github": "https://github.com/LissbethE/Natours",
+    "preview": "https://natoursapp-0oml.onrender.com/"
+  },
+
+  {
+    "video": "TheWildOasis.mp4",
+    "name": "🏕️ The Wild Oasis.",
+    "description": "",
+    "stack": "React Query, Styled Components, React Hook Form, Supabase, advanced compound component pattern, authentication, charts, and dark mode.",
+    "github": "https://github.com/LissbethE/The-wild-oasis",
+    "preview": "https://tb-the-wild-oasis.netlify.app/login"
+  },
+
+  {
+    "video": "FastReactPizzaCo.mp4",
+    "name": "🍕 Fast React Pizza CO.",
+    "description": "",
+    "stack": "React Router data loading, Redux, Redux Toolkit, thunks, Tailwind CSS",
+    "github": "https://github.com/LissbethE/Fast-React-Pizza",
+    "preview": "https://tb-fast-react-pizza.netlify.app/"
+  },
+
+  {
+    "img": "ReactQuiz.jpg",
+    "name": "🤔 React Quiz",
+    "description": "",
+    "stack": "React, Css",
+    "github": "https://github.com/LissbethE/React-Quiz",
+    "preview": "https://tb-react-quiz.netlify.app/"
+  }
+]

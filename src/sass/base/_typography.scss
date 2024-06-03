@@ -7,7 +7,7 @@ body {
   font-weight: 500;
   line-height: 1.6;
   font-style: normal;
-  color: #d1cebd; // #dededee6 #e4e8eb
+  color: $color-light;
 }
 
 a {
@@ -39,11 +39,7 @@ ul {
       color: $color-secondary;
       font-size: 3rem;
 
-      @include respond(tab-portrait) {
-        font-size: 2.5rem;
-      }
-
-      @include respond(breakp-500) {
+      @include respond(phone) {
         font-size: 2rem;
       }
     }
@@ -56,14 +52,14 @@ ul {
         color: $color-secondary;
         font-size: 3rem;
 
-        @include respond(breakp-500) {
+        @include respond(phone) {
           font-size: 2rem;
         }
       }
 
-      @include respond(tab-portrait) {
-        // font-size: Max(9vw, 3rem);
-        font-size: 7.5vw;
+      @include respond(bp-1100) {
+        font-size: 8.8vw;
+        margin-top: -3vw;
       }
     }
 
@@ -71,9 +67,8 @@ ul {
       font-size: 6vw;
       margin-top: -3vw; // 5
 
-      @include respond(tab-portrait) {
-        //  font-size: 9vw;
-        font-size: 7.5vw;
+      @include respond(bp-1100) {
+        font-size: 8.8vw;
         margin-top: -4vw;
       }
     }
@@ -85,11 +80,34 @@ ul {
 
   font-size: Max(3vw, 3.5rem);
   font-family: $font-salsa;
+
+  &--small {
+    font-size: 3.5rem;
+  }
 }
 
 .heading-3 {
   @extend .color-dark;
   font-size: 2rem;
+
+  &--stacks {
+    font-size: 3rem;
+    font-family: $font-salsa;
+  }
+
+  &--light {
+    color: $background-color;
+  }
+}
+
+.heading-4 {
+  @extend .color-dark;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+
+  &--light {
+    color: $background-color;
+  }
 }
 
 .paragraph {
@@ -99,4 +117,45 @@ ul {
   hyphens: auto;
   @extend .color-dark;
   letter-spacing: 0.1rem;
+
+  &--smallest {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  &--many {
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+.link {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+
+  font: inherit;
+  @extend .color-dark;
+  letter-spacing: 0.1rem;
+
+  &__span {
+    margin-left: 0.5rem;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      color: $color-secondary;
+      border-bottom: 1px solid $color-secondary;
+    }
+  }
+
+  &--projDetails {
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      color: $color-secondary;
+      border-bottom: 1px solid $color-secondary;
+    }
+  }
 }

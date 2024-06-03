@@ -1,0 +1,36 @@
+.sameStyle {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 1.5rem;
+}
+
+.video {
+  @extend .sameStyle;
+
+  /* &--projects {
+    height: 100%;
+    object-fit: fill;
+  }*/
+}
+
+.projects .projects__item > .video {
+  height: 100%;
+  object-fit: fill;
+}
+
+.image {
+  @extend .sameStyle;
+
+  /* &--projects {
+    height: 100%;
+    object-fit: fill;
+  }*/
+}
+
+.projects .projects__item > .image {
+  height: 100%;
+  object-fit: fill;
+}

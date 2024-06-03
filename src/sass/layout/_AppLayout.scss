@@ -1,8 +1,24 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+
 .AppLayout {
   width: 100%;
   height: 100vh;
 
   position: relative;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+
+  overflow: hidden;
+
+  @include respond(tab-portrait) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
 }
 
 .pattern-vertical-lines-lg {
@@ -13,19 +29,34 @@
     transparent 1px,
     transparent
   );
+
   background-size: 50px 50px;
 }
 
-.spline {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
 .container {
+  width: 100%;
+  max-height: 100vh;
+
+  position: relative;
+  z-index: 5;
+
+  ///////////////////////
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $color-primary;
+    border-radius: 20px;
+  }
+
+  ///////////////////////
 }

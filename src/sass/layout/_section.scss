@@ -1,0 +1,17 @@
+.section-padding-small {
+  padding: 3rem;
+
+  width: 100%;
+  height: 100%;
+}
+
+.section-padding-big {
+  padding: 3rem 7rem;
+
+  width: 100%;
+  height: 100%;
+
+  @include respond(tab-portrait) {
+    padding: 3rem;
+  }
+}

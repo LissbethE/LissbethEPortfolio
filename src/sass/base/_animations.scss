@@ -1,0 +1,68 @@
+@keyframes slide-right {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes move {
+  0% {
+    top: 50%; /* Empieza en el centro vertical */
+    left: 0; /* Empieza en el borde izquierdo */
+  }
+  25% {
+    top: 0; /* Se mueve al borde superior */
+    left: 50%; /* Se mueve al centro horizontal */
+  }
+  50% {
+    top: 50%; /* Se mueve al centro vertical */
+    left: 100%; /* Se mueve al borde derecho */
+  }
+  75% {
+    top: 100%; /* Se mueve al borde inferior */
+    left: 50%; /* Se mueve al centro horizontal */
+  }
+  100% {
+    top: 50%; /* Termina en el centro vertical */
+    left: 0; /* Termina en el borde izquierdo */
+  }
+}
+
+@keyframes move-around {
+  0% {
+    top: 0; /* Empieza en la parte superior */
+    left: 0; /* Empieza en la izquierda */
+  }
+  25% {
+    top: 0; /* Se mantiene en la parte superior */
+    left: calc(100vw - 50px); /* Se mueve hacia la derecha */
+  }
+  50% {
+    top: calc(100vh - 50px); /* Se mueve hacia abajo */
+    left: calc(100vw - 50px); /* Se mantiene en la derecha */
+  }
+  75% {
+    top: calc(100vh - 50px); /* Se mantiene en la parte inferior */
+    left: 0; /* Se mueve hacia la izquierda */
+  }
+  100% {
+    top: 0; /* Se mueve hacia arriba */
+    left: 0; /* Se mantiene en la izquierda */
+  }
+}
+
+@keyframes neon-glow {
+  from {
+    box-shadow: 0 0 20px $color-primary, 0 0 30px $color-primary,
+      0 0 40px $color-primary, 0 0 70px $color-primary, 0 0 80px $color-primary,
+      0 0 100px $color-primary, inset 0 0 40px $color-primary;
+  }
+  to {
+    box-shadow: 0 0 30px $color-primary, 0 0 40px $color-primary,
+      0 0 50px $color-primary, 0 0 80px $color-primary, 0 0 90px $color-primary,
+      0 0 110px $color-primary, inset 0 0 50px $color-primary;
+  }
+}

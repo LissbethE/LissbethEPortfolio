@@ -1,0 +1,17 @@
+.stack {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  &__container {
+    & div .stacks-icon {
+      // margin-left: 5rem;
+    }
+  }
+
+  & .button {
+    margin-left: auto;
+    margin-top: auto;
+  }
+}

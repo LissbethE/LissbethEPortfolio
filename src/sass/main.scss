@@ -12,7 +12,14 @@
 
 // Folder Components --------------------
 
+@import "components/spinner";
 @import "components/icons";
+@import "components/button";
+@import "components/modal";
+@import "components/stacks-icon";
+@import "components/display";
+@import "components/projects";
+@import "components/projectDetails";
 
 // Folder layout --------------------
 
@@ -20,7 +27,11 @@
 @import "layout/box";
 @import "layout/nav";
 @import "layout/header";
+@import "layout/section";
+@import "layout/flex";
 
 // Folder pages --------------------
 
+@import "pages/home";
 @import "pages/me";
+@import "pages/stack";

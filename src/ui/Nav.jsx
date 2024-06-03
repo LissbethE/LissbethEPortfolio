@@ -1,9 +1,9 @@
-import { GoCode, GoHome, GoMail, GoPerson, GoStack } from "react-icons/go";
+import { GoCode, GoHome, GoPerson, GoStack } from "react-icons/go";
 import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <nav className="nav box box--nav">
+    <nav className="nav">
       <ul className="nav__list">
         <li className="nav__item">
           <Link to="/home">
@@ -27,7 +27,7 @@ function Nav() {
         </li>
 
         <li className="nav__item">
-          <Link to="/projects">
+          <Link to="/project">
             <GoCode />
             <p className="nav__text paragraph">Projects</p>
           </Link>

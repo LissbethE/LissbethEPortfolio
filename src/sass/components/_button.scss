@@ -1,0 +1,44 @@
+.button {
+  font: inherit;
+  font-size: 1.6rem;
+  color: $color-dark;
+  background-color: transparent;
+  border: none;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+
+  &--primary {
+    border: 1px solid $color-dark;
+    transition: $transition-1;
+
+    &:hover {
+      background-color: $color-dark;
+      color: $background-color;
+    }
+
+    &--icon {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+
+  &--secundary {
+    padding: 0;
+    background-color: transparent;
+    transition: $transition-1;
+    font-weight: 600;
+    font-size: 1.8rem;
+
+    &:hover {
+      color: $color-primary;
+    }
+
+    &--icon {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+}

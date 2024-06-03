@@ -1,0 +1,81 @@
+[
+  {
+    "icon": "Photoshop.svg",
+    "name": "Photoshop"
+  },
+
+  {
+    "icon": "Figma-Dark.svg",
+    "name": "Figma"
+  },
+
+  {
+    "icon": "Webflow.svg",
+    "name": "Webflow"
+  },
+
+  {
+    "icon": "HTML.svg",
+    "name": "Html"
+  },
+
+  {
+    "icon": "CSS.svg",
+    "name": "Css"
+  },
+
+  {
+    "icon": "Sass.svg",
+    "name": "Sass"
+  },
+
+  {
+    "icon": "StyledComponents.svg",
+    "name": "Styled Components"
+  },
+
+  {
+    "icon": "TailwindCSS-Dark.svg",
+    "name": "Tailwind Css"
+  },
+
+  {
+    "icon": "React-Dark.svg",
+    "name": "React"
+  },
+
+  {
+    "icon": "Pug-Dark.svg",
+    "name": "Pug"
+  },
+
+  {
+    "icon": "NodeJS-Dark.svg",
+    "name": "Node"
+  },
+
+  {
+    "icon": "ExpressJS-Dark.svg",
+    "name": "Express"
+  },
+
+  {
+    "icon": "MongoDB.svg",
+    "name": "MongoDB"
+  },
+
+  {
+    "icon": "Mongoose.svg",
+    "name": "Mongoose"
+  },
+
+  {
+    "icon": "Postman.svg",
+    "name": "Postman"
+  },
+
+  {
+    "icon": "Vite-Dark.svg",
+    "name": "Vite"
+  }
+]

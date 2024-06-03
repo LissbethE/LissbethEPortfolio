@@ -1,20 +1,21 @@
-import Spline from "@splinetool/react-spline";
-
 import { Outlet } from "react-router-dom";
 import Nav from "./Nav";
 
 function AppLayout() {
   return (
     <section className="AppLayout pattern-vertical-lines-lg">
-      <div className="spline">
-        <Spline scene="https://prod.spline.design/Z2OVAslksZIVN1pQ/scene.splinecode" />
+      <div className="balls">
+        <div className="balls__ball balls__ball--move"></div>
+        <div className="balls__ball balls__ball--move-around"></div>
       </div>
 
       <Nav />
 
-      <main>
-        <Outlet />
-      </main>
+      <div className="container">
+        <main>
+          <Outlet />
+        </main>
+      </div>
     </section>
   );
 }
