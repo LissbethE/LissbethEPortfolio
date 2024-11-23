@@ -5,13 +5,61 @@
   flex-direction: column;
 
   &__container {
-    & div .stacks-icon {
-      // margin-left: 5rem;
-    }
   }
 
   & .button {
     margin-left: auto;
     margin-top: auto;
+  }
+}
+
+.stacks {
+  &:not(:last-child) {
+    margin-bottom: 5rem;
+  }
+
+  &__title {
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    gap: 2rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__name {
+    font-weight: 500;
+  }
+}
+
+.stacks-box {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &__stack {
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+    background-color: $color-light;
+
+    &--dif-color {
+      color: $background-color;
+      background-color: $color-primary;
+    }
   }
 }

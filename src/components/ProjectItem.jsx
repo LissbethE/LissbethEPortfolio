@@ -16,7 +16,7 @@ function ProjectItem({ project, setOpenModal }) {
 
       <div className="projects__background">
         <div className="projects__content">
-          <h3 className="heading-3 heading-3--light u-margin-bottom-small">
+          <h3 className="heading-3 heading-3--left heading-3--light u-margin-bottom-small">
             {project.name}
           </h3>
 

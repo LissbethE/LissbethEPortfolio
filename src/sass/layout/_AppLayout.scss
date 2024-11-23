@@ -22,10 +22,20 @@
 }
 
 .pattern-vertical-lines-lg {
-  background-image: repeating-linear-gradient(
+  /*
+    background-image: repeating-linear-gradient(
     to right,
     currentColor,
     currentColor 1px,
+    transparent 1px,
+    transparent
+  );
+  */
+
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(209, 206, 189, 0.5),
+    rgba(209, 206, 189, 0.5) 1px,
     transparent 1px,
     transparent
   );

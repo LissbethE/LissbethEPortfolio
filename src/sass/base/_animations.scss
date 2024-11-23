@@ -10,47 +10,47 @@
 
 @keyframes move {
   0% {
-    top: 50%; /* Empieza en el centro vertical */
-    left: 0; /* Empieza en el borde izquierdo */
+    top: 50%;
+    left: 0;
   }
   25% {
-    top: 0; /* Se mueve al borde superior */
-    left: 50%; /* Se mueve al centro horizontal */
+    top: 0;
+    left: 50%;
   }
   50% {
-    top: 50%; /* Se mueve al centro vertical */
-    left: 100%; /* Se mueve al borde derecho */
+    top: 50%;
+    left: 100%;
   }
   75% {
-    top: 100%; /* Se mueve al borde inferior */
-    left: 50%; /* Se mueve al centro horizontal */
+    top: 100%;
+    left: 50%;
   }
   100% {
-    top: 50%; /* Termina en el centro vertical */
-    left: 0; /* Termina en el borde izquierdo */
+    top: 50%;
+    left: 0;
   }
 }
 
 @keyframes move-around {
   0% {
-    top: 0; /* Empieza en la parte superior */
-    left: 0; /* Empieza en la izquierda */
+    top: 0;
+    left: 0;
   }
   25% {
-    top: 0; /* Se mantiene en la parte superior */
-    left: calc(100vw - 50px); /* Se mueve hacia la derecha */
+    top: 0;
+    left: calc(100vw - 50px);
   }
   50% {
-    top: calc(100vh - 50px); /* Se mueve hacia abajo */
-    left: calc(100vw - 50px); /* Se mantiene en la derecha */
+    top: calc(100vh - 50px);
+    left: calc(100vw - 50px);
   }
   75% {
-    top: calc(100vh - 50px); /* Se mantiene en la parte inferior */
-    left: 0; /* Se mueve hacia la izquierda */
+    top: calc(100vh - 50px);
+    left: 0;
   }
   100% {
-    top: 0; /* Se mueve hacia arriba */
-    left: 0; /* Se mantiene en la izquierda */
+    top: 0;
+    left: 0;
   }
 }
 
@@ -64,5 +64,44 @@
     box-shadow: 0 0 30px $color-primary, 0 0 40px $color-primary,
       0 0 50px $color-primary, 0 0 80px $color-primary, 0 0 90px $color-primary,
       0 0 110px $color-primary, inset 0 0 50px $color-primary;
+  }
+}
+
+//////////////
+/// Gradient animation
+
+@keyframes moveInCircle {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moveVertical {
+  0% {
+    transform: translateY(-50%);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes moveHorizontal {
+  0% {
+    transform: translateX(-50%) translateY(-10%);
+  }
+  50% {
+    transform: translateX(50%) translateY(10%);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-10%);
   }
 }

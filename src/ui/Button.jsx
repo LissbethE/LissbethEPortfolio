@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 function Button({ children, onClick, disabled, type, to }) {
   const styles = {
     primary: "button button--primary",
+    primaryDark: "button button--primary button--primary--dark",
     primaryWithIcon: "button button--primary button--primary--icon",
     secundary: "button button--secundary",
     secundaryWithIcon: "button button--secundary button--secundary--icon",

@@ -4,4 +4,8 @@
   gap: 1rem;
 
   color: $color-dark;
+
+  &--gap {
+    gap: 1.5rem;
+  }
 }

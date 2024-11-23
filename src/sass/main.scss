@@ -9,6 +9,7 @@
 @import "base/utilities";
 @import "base/typography";
 @import "base/animations";
+@import "base/effect";
 
 // Folder Components --------------------
 
@@ -16,10 +17,12 @@
 @import "components/icons";
 @import "components/button";
 @import "components/modal";
-@import "components/stacks-icon";
 @import "components/display";
 @import "components/projects";
-@import "components/projectDetails";
+@import "components/experience";
+@import "components/education";
+@import "components/imageModal";
+@import "components/service";
 
 // Folder layout --------------------
 
@@ -29,9 +32,12 @@
 @import "layout/header";
 @import "layout/section";
 @import "layout/flex";
+@import "layout/border";
 
 // Folder pages --------------------
 
 @import "pages/home";
 @import "pages/me";
 @import "pages/stack";
+@import "pages/careerPath";
+@import "pages/services";

@@ -1,37 +1,57 @@
-import { GoCode, GoHome, GoPerson, GoStack } from "react-icons/go";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { GoCode, GoGear, GoHome, GoRocket, GoStack } from "react-icons/go";
+
+const routes = [
+  {
+    label: "Home",
+    href: "/home",
+    icon: <GoHome />,
+  },
+
+  {
+    label: "Servicios",
+    href: "/services",
+    icon: <GoGear />,
+  },
+
+  {
+    label: "Tecnologías",
+    href: "/stack",
+    icon: <GoStack />,
+  },
+
+  {
+    label: "Proyectos",
+    href: "/project",
+    icon: <GoCode />,
+  },
+
+  {
+    label: "Mi Trayectoria",
+    href: "/careerPath",
+    icon: <GoRocket />,
+  },
+];
 
 function Nav() {
+  const location = useLocation();
+
   return (
     <nav className="nav">
       <ul className="nav__list">
-        <li className="nav__item">
-          <Link to="/home">
-            <GoHome />
-            <p className="nav__text paragraph">Home</p>
-          </Link>
-        </li>
-
-        <li className="nav__item">
-          <Link to="/about-me">
-            <GoPerson />
-            <p className="nav__text paragraph">Me</p>
-          </Link>
-        </li>
-
-        <li className="nav__item">
-          <Link to="/stack">
-            <GoStack />
-            <p className="nav__text paragraph">Stack</p>
-          </Link>
-        </li>
-
-        <li className="nav__item">
-          <Link to="/project">
-            <GoCode />
-            <p className="nav__text paragraph">Projects</p>
-          </Link>
-        </li>
+        {routes.map((route) => (
+          <li
+            className={`nav__item ${
+              location.pathname === route.href ? "active" : ""
+            }`}
+            key={route.label}
+          >
+            <Link to={route.href}>
+              {route.icon}
+              <p className="nav__text paragraph">{route.label}</p>
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );

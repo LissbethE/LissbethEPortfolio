@@ -14,7 +14,7 @@ function ProjectDetails({ project }) {
 
       {project?.description !== "" && (
         <div className="u-margin-bottom-small-2 u-margin-top-small-2">
-          <h3 className="heading-3 u-margin-bottom-small">Description</h3>
+          <h3 className="heading-3 u-margin-bottom-small">Descripción</h3>
 
           {project?.description?.split("\n").map((description, i) => (
             <p key={i} className="paragraph paragraph--many">
@@ -43,22 +43,24 @@ function ProjectDetails({ project }) {
         </div>
       </div>
 
-      <div className="u-margin-bottom-small-2">
-        <h3 className="heading-3 u-margin-bottom-small">Website</h3>
+      {project.preview && (
+        <div className="u-margin-bottom-small-2">
+          <h3 className="heading-3 u-margin-bottom-small">Website</h3>
 
-        <div className="flex u-margin-bottom-small">
-          <GoGlobe />
+          <div className="flex u-margin-bottom-small">
+            <GoGlobe />
 
-          <a
-            className="link link--projDetails"
-            rel="noreferrer"
-            href={project.preview}
-            target="_blank"
-          >
-            {project.preview}
-          </a>
+            <a
+              className="link link--projDetails"
+              rel="noreferrer"
+              href={project.preview}
+              target="_blank"
+            >
+              {project.preview}
+            </a>
+          </div>
         </div>
-      </div>
+      )}
 
       <div className="u-margin-bottom-small-2">
         <h3 className="heading-3 u-margin-bottom-small">GitHub</h3>

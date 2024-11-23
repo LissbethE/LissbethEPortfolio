@@ -22,6 +22,16 @@
       align-items: center;
       gap: 1rem;
     }
+
+    &--dark {
+      background-color: $color-dark;
+      color: $background-color;
+
+      &:hover {
+        background-color: transparent;
+        color: $color-dark;
+      }
+    }
   }
 
   &--secundary {

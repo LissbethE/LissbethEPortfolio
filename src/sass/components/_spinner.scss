@@ -8,15 +8,17 @@
   height: 100%;
   z-index: 3000;
   transition: $transition-1;
-  background-color: rgba(18, 18, 18, 0.7);
+  //background-color: rgba(246, 238, 223, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 
   display: flex;
   align-items: center;
   justify-content: center;
 
   &__img {
-    width: 80rem;
-    height: 80rem;
+    width: 55rem;
+    height: 55rem;
     object-fit: cover;
     display: block;
   }

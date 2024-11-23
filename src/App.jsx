@@ -2,11 +2,12 @@ import { Suspense, lazy } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import ProjectProvider from "./context/ProjectContext";
+import CareerPath from "./pages/CareerPath";
+import Services from "./pages/Services";
 
 const AppLayout = lazy(() => import("./ui/AppLayout"));
 const Spinner = lazy(() => import("./ui/Spinner"));
 const Home = lazy(() => import("./pages/Home"));
-const About = lazy(() => import("./pages/About"));
 const Stack = lazy(() => import("./pages/Stack"));
 const PageNotFound = lazy(() => import("./pages/PageNotFound"));
 const Project = lazy(() => import("./pages/Project"));
@@ -20,7 +21,8 @@ function App() {
             <Route element={<AppLayout />}>
               <Route index element={<Navigate replace to="home" />} />
               <Route path="home" element={<Home />} />
-              <Route path="about-me" element={<About />} />
+              <Route path="services" element={<Services />} />
+              <Route path="careerPath" element={<CareerPath />} />
               <Route path="stack" element={<Stack />} />
               <Route path="project" element={<Project />} />
 

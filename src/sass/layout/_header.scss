@@ -1,37 +1,20 @@
 .header {
   padding: 3rem;
-  //padding-bottom: 4rem;
 
   width: 90%;
   margin: 0 auto;
   height: 100vh;
   background-color: pink;
-  /* width: 75%;
-  height: 50rem;*/
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  @include respond(tab-portrait) {
-    //   width: 90%;
-    //height: 60vh;
-    //padding: 1rem;
-  }
-
-  @include respond(breakp-500) {
-    // height: 45rem;
-  }
 
   &__paragraph {
     width: 80%; // 75
     text-align: right;
     margin-left: auto;
     margin-top: auto;
-
-    @include respond(tab-portrait) {
-      //width: 80%;
-    }
 
     @include respond(breakp-500) {
       width: 95%;

@@ -1,0 +1,42 @@
+{
+  "experience": [
+    {
+      "name": "No Country",
+      "rol": "Desarrolladora Frontend",
+      "date": "Julio 2024 - Actualmente",
+      "location": "Argentina, En remoto",
+      "certificates": [
+        "CertificadoNoCountry-Agosto.jpg",
+        "CertificadoNoCountry-Octubre.jpg"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "name": "Mujer Digital - Junior Achievement",
+      "title": "Desarrollo web + Cloud Computing",
+      "date": "Noviembre 2023 - Marzo 2024",
+      "certificates": ["CertificadoMujerDigital.jpg"]
+    },
+
+    {
+      "name": "Core Code",
+      "title": "Software Development Fundamentals",
+      "date": "Enero 2023 - Marzo 2023",
+      "certificates": ["corecode-1.jpg", "corecode-2.jpg"]
+    },
+
+    {
+      "name": "Udemy",
+      "title": "Front-end and Back-end Development | Photoshop | Figma",
+      "date": "",
+      "certificates": [
+        "certificado-react.jpg",
+        "certificado-back-end.jpg",
+        "certificado-JavaScript.jpg",
+        "certificado-css-sass.jpg"
+      ]
+    }
+  ]
+}

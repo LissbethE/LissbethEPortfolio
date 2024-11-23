@@ -1,5 +1,6 @@
 ///////////////////////////
 // C O L O R
+
 $color-primary: #f57b51;
 $color-secondary: #d63447;
 
@@ -12,8 +13,23 @@ $color-hover-dark: rgba(70, 70, 70, 0.8);
 $box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 $box-shadow-2: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 
+////////////
+// Colors for gradient in animation
+
+$color1: rgb(245, 93, 81);
+$color2: rgb(245, 150, 81);
+$color3: rgb(245, 123, 81);
+$color4: rgb(245, 81, 137);
+$color5: rgb(245, 178, 81);
+
+$color-interactive: rgb(245, 123, 81);
+
+$circle-size: 80%;
+$blending: hard-light;
+
 ///////////////////////////
 // T E X T  S T Y L E
+
 $font-salsa: "Salsa", cursive;
 //$font-bad-script: "Bad Script", cursive;
 $font-sans-serif: "Montserrat", sans-serif;

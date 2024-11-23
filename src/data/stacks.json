@@ -1,81 +1,42 @@
-[
-  {
-    "icon": "Photoshop.svg",
-    "name": "Photoshop"
-  },
+{
+  "frontend": [
+    { "icon": "html.svg", "name": "Html" },
+    { "icon": "css.svg", "name": "Css" },
+    { "icon": "sass.svg", "name": "Sass" },
+    { "icon": "bootstrap.svg", "name": "Bootstrap" },
+    { "icon": "styledcomponents.svg", "name": "Styled Components" },
+    { "icon": "cssmodules.svg", "name": "Css Modules" },
+    { "icon": "tailwindcss.svg", "name": "Tailwind Css" },
+    { "icon": "javascript.svg", "name": "JavaScript" },
+    { "icon": "typescript.svg", "name": "TypeScript" },
+    { "icon": "pug.svg", "name": "Pug" },
+    { "icon": "react.svg", "name": "React JS" },
+    { "icon": "next.svg", "name": "Next JS" },
+    { "icon": "redux.svg", "name": "Redux" },
+    { "icon": "reactquery.svg", "name": "TanStack Query" },
+    { "icon": "vite.svg", "name": "Vite" }
+  ],
 
-  {
-    "icon": "Figma-Dark.svg",
-    "name": "Figma"
-  },
+  "backend": [
+    { "icon": "node.svg", "name": "Node" },
+    { "icon": "express.svg", "name": "Express" },
+    { "icon": "mongodb.svg", "name": "MongoDB" },
+    { "icon": "mongoose.svg", "name": "Mongoose" },
+    { "icon": "supabase.svg", "name": "Supabase" },
+    { "icon": "prisma.svg", "name": "Prisma" }
+  ],
 
-  {
-    "icon": "Webflow.svg",
-    "name": "Webflow"
-  },
-
-  {
-    "icon": "HTML.svg",
-    "name": "Html"
-  },
-
-  {
-    "icon": "CSS.svg",
-    "name": "Css"
-  },
-
-  {
-    "icon": "Sass.svg",
-    "name": "Sass"
-  },
-
-  {
-    "icon": "StyledComponents.svg",
-    "name": "Styled Components"
-  },
-
-  {
-    "icon": "TailwindCSS-Dark.svg",
-    "name": "Tailwind Css"
-  },
-
-  {
-    "icon": "React-Dark.svg",
-    "name": "React"
-  },
-
-  {
-    "icon": "Pug-Dark.svg",
-    "name": "Pug"
-  },
-
-  {
-    "icon": "NodeJS-Dark.svg",
-    "name": "Node"
-  },
-
-  {
-    "icon": "ExpressJS-Dark.svg",
-    "name": "Express"
-  },
-
-  {
-    "icon": "MongoDB.svg",
-    "name": "MongoDB"
-  },
-
-  {
-    "icon": "Mongoose.svg",
-    "name": "Mongoose"
-  },
-
-  {
-    "icon": "Postman.svg",
-    "name": "Postman"
-  },
-
-  {
-    "icon": "Vite-Dark.svg",
-    "name": "Vite"
-  }
-]
+  "others": [
+    { "icon": "photoshop.svg", "name": "Photoshop" },
+    { "icon": "figma.svg", "name": "Figma" },
+    { "icon": "webflow.svg", "name": "Webflow" },
+    { "icon": "wordpress.svg", "name": "WordPress" },
+    { "icon": "trello.svg", "name": "Trello" },
+    { "icon": "github.svg", "name": "GitHub & GitHub Projects" },
+    { "icon": "git.svg", "name": "Git" },
+    { "icon": "gitkraken.svg", "name": "GitKraken" },
+    { "icon": "npm.svg", "name": "NPM" },
+    { "icon": "postman.svg", "name": "Postman" },
+    { "icon": "vscode.svg", "name": "VS Code" }
+  ]
+}
